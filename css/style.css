@@ -1,8 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 
 body{
     height: 100vh;
@@ -13,30 +9,24 @@ body{
         "main"
         "footer";
     grid-template-rows: 100px 1fr 100px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header{
     grid-area: header;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-right: 100px;
-}
-
-
-
-.search{
-    height: 100px;
-    width: 100px;
-    color: white;
-    place-items: center;
-    display: grid;
-    font-size: 2rem;
-    transform: rotate(90deg);
 }
 
 main{
     grid-area: main;
-    background-color: tomato;
+    display: grid;
+    grid-template-areas:
+        "description product social";
+    grid-template-columns: 380px 1fr 48px;
+    padding: 0 100px;
 }
 
 footer{

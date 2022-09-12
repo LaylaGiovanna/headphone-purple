@@ -1,0 +1,4 @@
+.social{
+    grid-template-areas: social;
+    background-color: yellow;
+}
