@@ -13,12 +13,25 @@ body{
         "main"
         "footer";
     grid-template-rows: 100px 1fr 100px;
-
 }
 
 header{
     grid-area: header;
-    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+
+
+.search{
+    height: 100px;
+    width: 100px;
+    color: white;
+    place-items: center;
+    display: grid;
+    font-size: 2rem;
+    transform: rotate(90deg);
 }
 
 main{
