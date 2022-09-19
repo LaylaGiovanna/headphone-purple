@@ -1,4 +1,4 @@
-.description{
+.description {
     grid-template-areas: description;
     color: #D5B9CF;
     display: flex;
@@ -6,10 +6,10 @@
     justify-content: center;
 }
 
-.description__title{
+.description__title {
     font-size: 6rem;
 }
 
-.description__text{
+.description__text {
     font-size: 1.5rem;
 }

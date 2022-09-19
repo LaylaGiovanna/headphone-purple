@@ -1,4 +1,4 @@
-.social-icon{
+.social-icon {
     height: 48px;
     width: 48px;
     border: 2px solid #fff;
@@ -9,7 +9,7 @@
     font-size: 1.5rem;
 }
 
-.social-icon:hover{
+.social-icon:hover {
     background-color: #CF09A4;
     border: 2px solid #CF09A4;
     transition: all .5s;
