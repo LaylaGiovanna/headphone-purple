@@ -1,6 +1,8 @@
 # landing-page-headphone-purple
 ![](./img/headphone.png)
 
+---
+[Clique aqui](https://laylagiovanna.github.io/headphone-purple/) para acessar o site
 
 ---
 
