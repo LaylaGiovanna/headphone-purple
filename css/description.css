@@ -1,6 +1,5 @@
 .description{
     grid-template-areas: description;
-    background-color: cornflowerblue;
     color: #D5B9CF;
     display: flex;
     flex-direction: column;

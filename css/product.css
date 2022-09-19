@@ -1,6 +1,5 @@
 .product{
     grid-template-areas: product;
-    background-color: teal;
     color: #76045D;
     display: flex;
     flex-direction: column;
